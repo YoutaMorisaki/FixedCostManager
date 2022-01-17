@@ -23,7 +23,7 @@
 		6E4365FC278340B1008E750A /* FixedCostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4365FB278340B1008E750A /* FixedCostListView.swift */; };
 		6E4366002783D6A3008E750A /* CostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4365FF2783D6A3008E750A /* CostDetailView.swift */; };
 		6E4366082783E92E008E750A /* VariableItemRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4366072783E92E008E750A /* VariableItemRegistrationView.swift */; };
-		6E43660C2783FA2B008E750A /* VariableCostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E43660B2783FA2B008E750A /* VariableCostViewModel.swift */; };
+		6E43660C2783FA2B008E750A /* VariableCostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E43660B2783FA2B008E750A /* VariableCostListViewModel.swift */; };
 		6E43661927845FBA008E750A /* FixedCostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E43661827845FBA008E750A /* FixedCostViewModel.swift */; };
 		6E43661C27846457008E750A /* CostRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E43661B27846457008E750A /* CostRowView.swift */; };
 		6EAB51E32792876500D6DD43 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB51E22792876500D6DD43 /* HomeView.swift */; };
@@ -92,7 +92,7 @@
 		6E4365FB278340B1008E750A /* FixedCostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedCostListView.swift; sourceTree = "<group>"; };
 		6E4365FF2783D6A3008E750A /* CostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostDetailView.swift; sourceTree = "<group>"; };
 		6E4366072783E92E008E750A /* VariableItemRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableItemRegistrationView.swift; sourceTree = "<group>"; };
-		6E43660B2783FA2B008E750A /* VariableCostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableCostViewModel.swift; sourceTree = "<group>"; };
+		6E43660B2783FA2B008E750A /* VariableCostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableCostListViewModel.swift; sourceTree = "<group>"; };
 		6E43661827845FBA008E750A /* FixedCostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedCostViewModel.swift; sourceTree = "<group>"; };
 		6E43661B27846457008E750A /* CostRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostRowView.swift; sourceTree = "<group>"; };
 		6EAB51E22792876500D6DD43 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -373,7 +373,7 @@
 		6EDEDEA2278C787600CF7CE4 /* VariableCost */ = {
 			isa = PBXGroup;
 			children = (
-				6E43660B2783FA2B008E750A /* VariableCostViewModel.swift */,
+				6E43660B2783FA2B008E750A /* VariableCostListViewModel.swift */,
 				6EDEDEA3278C789200CF7CE4 /* VariableVostDetailViewModel.swift */,
 				6ECE895D278EEA980045C9EB /* VariableItemRegistrationViewModel.swift */,
 			);
@@ -534,7 +534,7 @@
 				6EAB51E527928A6100D6DD43 /* VariableCostListView.swift in Sources */,
 				6EDEDE7A278C20EF00CF7CE4 /* FixedCost.swift in Sources */,
 				6EDEDE9C278C59EB00CF7CE4 /* FixedCostRegistrationViewModel.swift in Sources */,
-				6E43660C2783FA2B008E750A /* VariableCostViewModel.swift in Sources */,
+				6E43660C2783FA2B008E750A /* VariableCostListViewModel.swift in Sources */,
 				6E4365EF27830B6A008E750A /* FixedCostManager.xcdatamodeld in Sources */,
 				6EDEDE87278C2DDB00CF7CE4 /* MonthlyChargeCoreDataStore.swift in Sources */,
 				6E4366002783D6A3008E750A /* CostDetailView.swift in Sources */,

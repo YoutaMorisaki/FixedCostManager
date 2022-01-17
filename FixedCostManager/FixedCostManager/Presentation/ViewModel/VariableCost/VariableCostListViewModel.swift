@@ -1,5 +1,5 @@
 //
-//  VariableCostViewModel.swift
+//  VariableCostListViewModel.swift
 //  FixedCostManager
 //
 //  Created by youtaMorisaki on 2022/01/04.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-class VariableCostViewModel: ObservableObject,Identifiable{
+class VariableCostListViewModel: ObservableObject,Identifiable{
     let usecase:VariableCostUsecase
     
     @Published var year:Int
