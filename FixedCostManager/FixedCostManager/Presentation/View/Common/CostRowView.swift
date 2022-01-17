@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct CostRowView: View {
-    @EnvironmentObject var vm:VariableCostViewModel
     var name:String = ""
     var cost:Int = 0
     

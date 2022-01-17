@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct VariableCostListView: View {
-    @ObservedObject var vm:VariableCostViewModel = VariableCostViewModel()
+    @ObservedObject var vm:VariableCostListViewModel = VariableCostListViewModel()
     
     init(){
         vm.load()
